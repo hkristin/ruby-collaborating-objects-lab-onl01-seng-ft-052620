@@ -6,8 +6,7 @@ class MP3Importer
   end
   
   def files
-    file_array = Dir["/spec/fixtures/mp3s"]
-    binding.pry
+    file_array = Dir.children("spec/fixtures/mp3s")
   end 
   
   def import
