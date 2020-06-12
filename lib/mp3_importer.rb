@@ -6,7 +6,8 @@ class MP3Importer
   end
   
   def files
-    file_array = Dir.
+    file_array = Dir["/spec/fixtures/mp3s"]
+    binding.pry
   end 
   
   def import
