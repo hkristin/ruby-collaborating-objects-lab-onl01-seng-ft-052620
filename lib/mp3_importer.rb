@@ -6,6 +6,7 @@ class MP3Importer
   end
   
   def files
+    file_array = Dir.
   end 
   
   def import
