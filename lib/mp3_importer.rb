@@ -10,6 +10,7 @@ class MP3Importer
   end 
   
   def import
-    
+    files = self.files 
+    binding.pry
   end
 end
